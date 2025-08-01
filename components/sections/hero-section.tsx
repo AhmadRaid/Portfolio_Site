@@ -160,7 +160,7 @@ export function HeroSection({ onContactClick, onProjectsClick }: HeroSectionProp
 
                 {/* Floating badges */}
                 <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl hover-scale">
-                  <span className="flex items-center gap-2">5+ {t("yearsExperience")}</span>
+                  <span className="flex items-center gap-2">4+ {t("yearsExperience")}</span>
                 </div>
                 <div className="absolute -top-4 -left-4 bg-white dark:bg-slate-800 p-3 rounded-2xl shadow-xl hover-scale">
                   <MapPin className="h-5 w-5 text-red-500" />

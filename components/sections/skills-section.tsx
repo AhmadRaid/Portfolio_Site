@@ -230,7 +230,7 @@ export function SkillsSection() {
                 gradient: "from-yellow-500 to-orange-500",
               },
               {
-                number: "5+",
+                number: "4+",
                 label: t("yearsExperience"),
                 icon: Shield,
                 gradient: "from-green-500 to-emerald-500",

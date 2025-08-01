@@ -19,7 +19,7 @@ const cairo = Cairo({
 export const metadata: Metadata = {
   title: "Ahmad Raid - Backend Engineer | Node.js Developer | أحمد رائد",
   description:
-    "Software engineer specialized in backend development using Node.js with 5+ years of experience | مهندس برمجيات متخصص في تطوير الأنظمة الخلفية",
+    "Software engineer specialized in backend development using Node.js with 4+ years of experience | مهندس برمجيات متخصص في تطوير الأنظمة الخلفية",
   keywords: "Node.js, Backend Engineer, JavaScript, TypeScript, MongoDB, PostgreSQL, AWS, Ahmad Raid, أحمد رائد",
   authors: [{ name: "Ahmad Raid" }],
   openGraph: {

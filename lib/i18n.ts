@@ -15,7 +15,7 @@ export const translations = {
     name: "أحمد رائد",
     title: "مطور Full Stack متخصص في Node.js و Laravel",
     description:
-      "مطور Full Stack متخصص في تطوير الأنظمة الخلفية باستخدام Node.js و Laravel مع خبرة 5+ سنوات في بناء تطبيقات ويب قابلة للتوسع وآمنة. أساعد الشركات في تحويل أفكارها إلى حلول تقنية متكاملة.",
+      "مطور Full Stack متخصص في تطوير الأنظمة الخلفية باستخدام Node.js و Laravel مع خبرة 4+ سنوات في بناء تطبيقات ويب قابلة للتوسع وآمنة. أساعد الشركات في تحويل أفكارها إلى حلول تقنية متكاملة.",
     contactMe: "تواصل معي",
     viewProjects: "عرض المشاريع",
     downloadCV: "تحميل السيرة الذاتية",
@@ -148,7 +148,7 @@ export const translations = {
     name: "Ahmad Raid",
     title: "Full Stack Developer specialized in Node.js & Laravel",
     description:
-      "Full Stack Developer specialized in backend development using Node.js and Laravel with 5+ years of experience building scalable and secure web applications. I help companies transform their ideas into comprehensive technical solutions.",
+      "Full Stack Developer specialized in backend development using Node.js and Laravel with 4+ years of experience building scalable and secure web applications. I help companies transform their ideas into comprehensive technical solutions.",
     contactMe: "Contact Me",
     viewProjects: "View Projects",
     downloadCV: "Download CV",

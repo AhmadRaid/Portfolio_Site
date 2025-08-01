@@ -331,7 +331,7 @@ export function ContactSection() {
                 <h3 className="text-lg font-bold mb-4">{isRTL ? "إحصائيات سريعة" : "Quick Stats"}</h3>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <div className="text-2xl font-bold">5+</div>
+                    <div className="text-2xl font-bold">4+</div>
                     <div className="text-sm opacity-90">{isRTL ? "سنوات خبرة" : "Years Experience"}</div>
                   </div>
                   <div className="text-center">
