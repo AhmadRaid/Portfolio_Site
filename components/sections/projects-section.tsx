@@ -1,13 +1,11 @@
 "use client"
 
-import { CheckCircle, Github, ExternalLink } from "lucide-react"
+import { CheckCircle } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
 import { Section, SectionHeader } from "@/components/ui/section"
 import { useLanguage } from "@/hooks/use-language"
 import { useEffect, useState } from "react"
-import Link from "next/link"
 
 export function ProjectsSection() {
   const { t } = useLanguage()
@@ -37,8 +35,6 @@ export function ProjectsSection() {
       technologies: ["Node.js", "Laravel", "React", "MySQL", "Stripe API"],
       status: "completed",
       features: [t("ecommerceFeature")],
-      githubUrl: "#",
-      liveUrl: "#",
     },
     {
       id: "cms",
@@ -47,8 +43,6 @@ export function ProjectsSection() {
       technologies: ["Laravel", "Vue.js", "PostgreSQL", "JWT"],
       status: "completed",
       features: [t("cmsFeature")],
-      githubUrl: "#",
-      liveUrl: "#",
     },
     {
       id: "chat",
@@ -57,8 +51,6 @@ export function ProjectsSection() {
       technologies: ["Node.js", "Socket.io", "React", "Redis", "Docker"],
       status: "development",
       features: [t("chatFeature")],
-      githubUrl: "#",
-      liveUrl: "#",
     },
     {
       id: "task-manager",
@@ -67,8 +59,6 @@ export function ProjectsSection() {
       technologies: ["Laravel", "Vue.js", "MySQL", "AWS"],
       status: "completed",
       features: [t("taskFeature")],
-      githubUrl: "#",
-      liveUrl: "#",
     },
   ]
 
@@ -123,20 +113,6 @@ export function ProjectsSection() {
                 <div className="flex items-center space-x-2">
                   <CheckCircle className="h-4 w-4 text-green-600" />
                   <span className="text-sm text-gray-600 dark:text-gray-300">{project.features[0]}</span>
-                </div>
-                <div className="flex space-x-2">
-                  {/* <Button size="sm" variant="outline" asChild className="hover-lift bg-transparent">
-                    <Link href={project.githubUrl}>
-                      <Github className="h-4 w-4 mr-2" />
-                      {t("viewCode")}
-                    </Link>
-                  </Button>
-                  <Button size="sm" asChild className="hover-lift">
-                    <Link href={project.liveUrl}>
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      {t("liveDemo")}
-                    </Link>
-                  </Button> */}
                 </div>
               </CardContent>
             </Card>

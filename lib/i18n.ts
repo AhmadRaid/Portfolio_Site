@@ -43,6 +43,13 @@ export const translations = {
     cloudServices: "الخدمات السحابية",
     devTools: "أدوات التطوير",
 
+    // Skills Stats - الترجمات الجديدة
+    technologiesMastered: "تقنية متقنة",
+    yearsExperience: "سنوات خبرة",
+    projectsCompleted: "مشروع مكتمل",
+    qualityCommitment: "التزام بالجودة",
+    overallProficiency: "الإتقان العام",
+
     // Projects Section
     projectsTitle: "المشاريع المميزة",
     projectsDescription: "مجموعة من المشاريع التي عملت عليها باستخدام Node.js و Laravel والتقنيات الحديثة",
@@ -170,6 +177,13 @@ export const translations = {
     databases: "Databases",
     cloudServices: "Cloud Services",
     devTools: "Development Tools",
+
+    // Skills Stats - الترجمات الجديدة
+    technologiesMastered: "Technologies Mastered",
+    yearsExperience: "Years Experience",
+    projectsCompleted: "Projects Completed",
+    qualityCommitment: "Quality Commitment",
+    overallProficiency: "Overall Proficiency",
 
     // Projects Section
     projectsTitle: "Featured Projects",

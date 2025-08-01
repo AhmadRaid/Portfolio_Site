@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { Mail, Phone, MapPin, Send, User, MessageSquare, Clock, CheckCircle2 } from "lucide-react"
+import { Mail, Phone, MapPin, Send, User, MessageSquare, CheckCircle2 } from "lucide-react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -93,12 +93,6 @@ export function ContactSection() {
       description: isRTL ? "موقعي الحالي" : "My current location",
       color: "red",
     },
-  ]
-
-  const workingHours = [
-    { day: isRTL ? "الأحد - الخميس" : "Sun - Thu", time: "9:00 AM - 6:00 PM" },
-    { day: isRTL ? "الجمعة" : "Friday", time: "2:00 PM - 6:00 PM" },
-    { day: isRTL ? "السبت" : "Saturday", time: isRTL ? "مغلق" : "Closed" },
   ]
 
   const responseTime = isRTL ? "عادة خلال 24 ساعة" : "Usually within 24 hours"
@@ -308,6 +302,53 @@ export function ContactSection() {
               ))}
             </div>
 
+            {/* Response Time Info */}
+            <Card
+              className={`hover-lift bg-white/90 backdrop-blur-sm border-0 shadow-lg ${
+                isVisible ? "animate-fade-in-up delay-600" : "opacity-0-animate"
+              }`}
+            >
+              <CardContent className="p-6">
+                <div className="text-center">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <Mail className="h-6 w-6 text-white" />
+                  </div>
+                  <h3 className="font-semibold text-gray-800 dark:text-white mb-2">
+                    {isRTL ? "وقت الاستجابة" : "Response Time"}
+                  </h3>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">{responseTime}</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Quick Stats */}
+            <Card
+              className={`hover-lift bg-gradient-to-br from-blue-600 to-purple-600 text-white border-0 shadow-lg ${
+                isVisible ? "animate-fade-in-up delay-700" : "opacity-0-animate"
+              }`}
+            >
+              <CardContent className="p-6">
+                <h3 className="text-lg font-bold mb-4">{isRTL ? "إحصائيات سريعة" : "Quick Stats"}</h3>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">5+</div>
+                    <div className="text-sm opacity-90">{isRTL ? "سنوات خبرة" : "Years Experience"}</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">50+</div>
+                    <div className="text-sm opacity-90">{isRTL ? "مشروع مكتمل" : "Projects Done"}</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">100%</div>
+                    <div className="text-sm opacity-90">{isRTL ? "رضا العملاء" : "Client Satisfaction"}</div>
+                  </div>
+                  <div className="text-center">
+                    <div className="text-2xl font-bold">24/7</div>
+                    <div className="text-sm opacity-90">{isRTL ? "دعم فني" : "Support"}</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </div>

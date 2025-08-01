@@ -128,7 +128,7 @@ export function HeroSection({ onContactClick, onProjectsClick }: HeroSectionProp
                 <Github className="h-8 w-8" />
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/ahmad-raid-33043a20a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-blue-600 animate-icon-hover dark:text-slate-400"
