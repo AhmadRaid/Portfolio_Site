@@ -26,8 +26,8 @@ export const metadata: Metadata = {
     title: "Ahmad Raid - Backend Engineer",
     description: "Node.js Developer specialized in building scalable backend systems",
     type: "website",
-    locale: "ar_PS",
-    alternateLocale: "en_US",
+    locale: "en_US",
+    alternateLocale: "ar_PS",
   },
   robots: {
     index: true,
@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className={`${inter.variable} ${cairo.variable}`}>
+    <html className={`${inter.variable} ${cairo.variable}`} lang="en" dir="ltr">
       <body className="font-sans antialiased">
         <LanguageProvider>{children}</LanguageProvider>
       </body>

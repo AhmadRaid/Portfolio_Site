@@ -17,7 +17,7 @@ export function Footer() {
             </div>
             <div>
               <p className="text-sm text-gray-600 dark:text-gray-300">
-                © 2024 {t("name")}. {t("rightsReserved")}
+                © 2025 {t("name")}. {t("rightsReserved")}
               </p>
               <p className="text-xs text-gray-500">{t("fullStackSpecialist")}</p>
             </div>
@@ -39,7 +39,6 @@ export function Footer() {
             >
               <Linkedin className="h-5 w-5" />
             </Link>
-            <div className="text-xs text-gray-500">{t("builtWith")}</div>
           </div>
         </div>
       </div>

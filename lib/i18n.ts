@@ -79,14 +79,14 @@ export const translations = {
     seniorFullStackPeriod: "2022 - الآن",
     seniorFullStackAch1: "قيادة فريق من 5 مطورين في بناء منصة تجارة إلكترونية تخدم أكثر من 50,000 مستخدم",
     seniorFullStackAch2: "تطوير APIs باستخدام Node.js و Laravel مع تحسين الأداء بنسبة 40%",
-    seniorFullStackAch3: "بناء واجهات مستخدم تفاعلية باستخدام React ",
+    seniorFullStackAch3: "بناء واجهات مستخدم تفاعلية باستخدام React و Vue.js",
     seniorFullStackAch4: "تطبيق منهجية DevOps وأتمتة عمليات النشر مما قلل وقت النشر بنسبة 60%",
 
     fullStackDevTitle: "مطور Full Stack",
     fullStackDevCompany: "شركة الحلول الرقمية",
     fullStackDevPeriod: "2020 - 2022",
     fullStackDevAch1: "تطوير وصيانة أكثر من 15 تطبيق ويب باستخدام Node.js و Laravel",
-    fullStackDevAch2: "بناء واجهات مستخدم حديثة باستخدام React  مع تصميم متجاوب",
+    fullStackDevAch2: "بناء واجهات مستخدم حديثة باستخدام React و Vue.js مع تصميم متجاوب",
     fullStackDevAch3: "تطبيق اختبارات الوحدة والتكامل مما رفع جودة الكود بنسبة 35%",
     fullStackDevAch4: "تحسين قواعد البيانات وتطوير APIs RESTful عالية الأداء",
 
@@ -207,14 +207,14 @@ export const translations = {
     seniorFullStackPeriod: "2022 - Present",
     seniorFullStackAch1: "Leading a team of 5 developers building an e-commerce platform serving 50,000+ users",
     seniorFullStackAch2: "Developing APIs using Node.js and Laravel with 40% performance improvement",
-    seniorFullStackAch3: "Building interactive user interfaces using React ",
+    seniorFullStackAch3: "Building interactive user interfaces using React and Vue.js",
     seniorFullStackAch4: "Implementing DevOps methodology and deployment automation reducing deployment time by 60%",
 
     fullStackDevTitle: "Full Stack Developer",
     fullStackDevCompany: "Digital Solutions Company",
     fullStackDevPeriod: "2020 - 2022",
     fullStackDevAch1: "Developing and maintaining 15+ web applications using Node.js and Laravel",
-    fullStackDevAch2: "Building modern user interfaces using React  with responsive design",
+    fullStackDevAch2: "Building modern user interfaces using React and Vue.js with responsive design",
     fullStackDevAch3: "Implementing unit and integration tests improving code quality by 35%",
     fullStackDevAch4: "Optimizing databases and developing high-performance RESTful APIs",
 
